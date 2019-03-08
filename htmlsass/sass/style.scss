@@ -1,0 +1,340 @@
+@import "variables";
+@import "mixin";
+body{
+	font-family: $font;
+}
+.topnav{
+	background: $whyte;
+	span{
+		font-size: $corey;
+	}
+	.list1
+	{
+		&:hover
+		{
+			background-color: $grey;
+		}
+	}
+	#srchbx{
+
+    display: inline-block;
+    padding: 15px;
+    background: $gold;
+    color: $whyte;
+
+	}
+	.right{
+		margin-right: 0;
+	}
+}
+.container1{
+	@include contain;
+	background-image: linear-gradient(rgba(0, 0, 51, 1),rgba(0, 0, 0, 0.8)),url("../background1.jpg");
+	.content{
+	text-align: center;
+	margin: 200px 0;
+	color: $whyte;
+	h2{
+		margin: 0 0 30px 0;
+		font-size: 50px;
+	}
+	p{
+		margin: 0 0 30px 0;
+	}
+	button{
+		@include buton;
+		border: 2px solid $whyte;
+		color: $whyte;
+		&:hover{
+			@include butonhov1;
+		}
+	}
+	}
+
+}
+.container2{
+	@include contain2;
+	.content1{
+		margin:  150px 0 150px 0;
+		h2{
+			font-weight: 300;
+			font-size: 40px;
+			margin: 0 0 60px 0;
+			color: $bluehead;
+
+		}
+		p{
+			margin: 0 0 60px 0;
+			color: $lightgrey;
+		}
+		.secondlist{
+			list-style-type: none;
+			li{
+				margin: 0 0 20px 0;
+				color: $bluehead;
+
+			}
+	
+		}
+	}
+	.content2{
+	margin:150px 0 150px 0;
+
+	img{
+		width: 100%;
+		height: auto;
+	}
+	}
+
+}
+.container4{
+	@include contain;
+	background-image:linear-gradient(rgba(0, 0, 51, 1),rgba(0, 0, 0, 0.8)),url("../background2.jpg");
+	color: $whyte;
+	.content3{
+		text-align: center;
+		margin: 100px 0;
+		h2{
+			font-weight: 300;
+			font-size: 55px;
+		}
+	}
+	.box1{
+		text-align: center;
+		margin: 80px 0;
+	}
+	.ordrsrvc{
+		text-align: center;
+		margin: 0 0 30px 0;
+		button{
+		@include buton;
+		border: 2px solid $whyte;
+		color: $whyte;
+		&:hover{
+			@include butonhov1;
+		}
+	}
+	}
+}
+.container5{
+	@include contain2;
+	.content4{
+		margin: 60px 0 0 0;
+		span{
+			margin: 30px 0;
+		}
+	}
+	.midnav{
+		background-color: $whyte;
+		margin: 20px 0 0 0;
+		.midlink{
+			display: inline-block;
+			height: 40px;
+			padding: 12px;
+			&:hover{
+				background-color: $grey;
+			}
+		}
+	}
+	.divpic{
+		margin: 20px 0 0 0;
+		.c1{
+			margin: 0 0 30px 0;
+			padding: 0 10px 0 0;
+		}
+		.c2{
+			margin: 0 0 15px 0;
+			padding: 0 10px 0 0;
+		}
+		.c5{
+			margin: 30px 0 0 0;
+			padding: 0 10px 0 0;
+		}
+		.c6{
+			margin: 0 0 30px 0;
+		}
+		.c3{
+			padding: 0 10px 0 0;
+		}
+		.c4{
+			padding: 0 10px 0 0;
+		}
+		
+	}
+}
+.container6{
+	@include contain;
+	background-image:linear-gradient(rgba(0, 0, 51, 1),rgba(0, 0, 0, 0.8)),url("../background3.jpg");
+	
+	color: $whyte;
+	.box2{
+		text-align: center;
+		margin: 100px 0;
+		p{
+			font-size: 20px;
+			&:hover{
+				color: $gold;
+			}
+		}
+		span{
+			font-size: 35px;
+		}
+	}
+}
+.container7{
+	@include contain2;
+	background-color: $grey;
+	.content5{
+		text-align: center;
+		margin: 80px 0;
+		h2{
+			font-size: 45px;
+			color: $lightblack;
+		}
+	}
+	.box3{
+		@include box;
+		
+		button{
+			@include buton;
+			border: 2px solid $buttonborder;
+			color: $buttonborder;
+			margin: 0 0 20px 0;
+			&:hover{
+			@include butonhov1;
+			}
+
+			
+		}
+		h2
+		{
+			margin: 0 0 50px 0;
+		}
+		.boxwrap{
+			background-color: $whyte;
+		}
+	.x1{
+		color: $grey;
+		}
+	}
+
+}
+.container8{
+	@include contain;
+	background-image:linear-gradient(rgba(0, 0, 51, 1),rgba(0, 0, 0, 0.8)),url("../office.jpg");
+	color: $whyte;
+	.content6{
+		margin: 100px 0;
+		h2{
+			font-size: 45px;
+		}
+	}
+	.box6{
+		margin: 0 0 50px 0;
+		text-align: center;
+		img{
+			border-radius: 50px;
+		}
+		p{
+			color: $whyte;
+		}
+		#name{
+		color: $whyte;
+		}
+	}
+
+}
+.container9{
+	@include contain2;
+	background-color: $grey;
+	.content7{
+		margin: 100px 0 50px 0;
+		h2{
+			font-size: 45px;
+			font-weight: 700px;
+		}
+	}
+	.box7{
+		
+		margin: 0 0 60px 0;
+		
+		
+		
+			button{
+					@include buton;
+					border: 2px solid $buttonborder;
+					color: #585163;
+					margin: 20px 150px 20px 10px;
+				&:hover{
+					@include butonhov1;
+				}
+			}
+			span
+			{
+				display: inline-block;
+				margin: 20px 0 0 10px;
+			}
+			p
+			{
+				margin: 20px 0 0px 10px;
+			}
+			.boxwrap{
+			background-color: $whyte;
+		}
+	}
+
+}
+.container10{
+	@include contain2;
+	color: $whyte;
+	background-color: $violet;
+	.fhead{
+		width: 100%;
+		float: left;
+		span{
+			font-size: $corey;
+		}
+	}
+	.content9{
+		margin: 0 0 60px 0;
+		.botnav{
+			list-style-type: none;
+			padding: 0;
+			a{
+				color: $grey;
+				text-decoration: none;
+				font-size: 12px;
+			}
+		}
+		#mail{
+			border-radius: 50px 0 0 50px;
+			border: none;
+			float: left;
+			width: 80%;
+			height: 40px;
+
+		}
+		.newsletter{
+			display: inline-block;
+			float: left;
+			background-color: $gold;
+			padding: 12px 12px 0px 10px;
+			border-radius: 0 50px 50px 0; 
+			width: 20%;
+			height: 40px;
+		}
+		#paper{
+			display: inline-block;
+		}	
+	}
+	.footer
+	{
+		float: left;
+		text-align: center;
+		color: $grey;
+		border-top: 1px solid #bcbcb2;
+		font-size: 12px;
+		width: 100%;
+	}
+
+}

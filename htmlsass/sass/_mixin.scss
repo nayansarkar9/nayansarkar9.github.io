@@ -1,0 +1,32 @@
+@mixin contain{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	float: left;
+}
+@mixin contain2{
+	width: 100%;
+	float: left;
+}
+@mixin box{
+	text-align: center;
+	
+	box-sizing: border-box;
+	margin: 0 0 50px 0;
+}
+@mixin box11{
+	background-color: white;
+	margin: 0 0 60px 0;
+	padding: 0;
+}
+@mixin buton{
+	border-radius: 50px;
+	padding: 16px 40px;
+	background: none;
+}
+@mixin butonhov1{
+	background-color: $gold;
+color: white;
+border: none;
+}
+
