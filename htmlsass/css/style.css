@@ -1,0 +1,355 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.topnav {
+  background: white;
+}
+.topnav span {
+  font-size: 20px;
+}
+.topnav .list1:hover {
+  background-color: #f5f4fa;
+}
+.topnav #srchbx {
+  display: inline-block;
+  padding: 15px;
+  background: #d0a904;
+  color: white;
+}
+.topnav .right {
+  margin-right: 0;
+}
+
+.container1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  background-image: linear-gradient(#000033, rgba(0, 0, 0, 0.8)), url("../background1.jpg");
+}
+.container1 .content {
+  text-align: center;
+  margin: 200px 0;
+  color: white;
+}
+.container1 .content h2 {
+  margin: 0 0 30px 0;
+  font-size: 50px;
+}
+.container1 .content p {
+  margin: 0 0 30px 0;
+}
+.container1 .content button {
+  border-radius: 50px;
+  padding: 16px 40px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+}
+.container1 .content button:hover {
+  background-color: #d0a904;
+  color: white;
+  border: none;
+}
+
+.container2 {
+  width: 100%;
+  float: left;
+}
+.container2 .content1 {
+  margin: 150px 0 150px 0;
+}
+.container2 .content1 h2 {
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0 0 60px 0;
+  color: #4a4480;
+}
+.container2 .content1 p {
+  margin: 0 0 60px 0;
+  color: #9a99a9;
+}
+.container2 .content1 .secondlist {
+  list-style-type: none;
+}
+.container2 .content1 .secondlist li {
+  margin: 0 0 20px 0;
+  color: #4a4480;
+}
+.container2 .content2 {
+  margin: 150px 0 150px 0;
+}
+.container2 .content2 img {
+  width: 100%;
+  height: auto;
+}
+
+.container4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  background-image: linear-gradient(#000033, rgba(0, 0, 0, 0.8)), url("../background2.jpg");
+  color: white;
+}
+.container4 .content3 {
+  text-align: center;
+  margin: 100px 0;
+}
+.container4 .content3 h2 {
+  font-weight: 300;
+  font-size: 55px;
+}
+.container4 .box1 {
+  text-align: center;
+  margin: 80px 0;
+}
+.container4 .ordrsrvc {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.container4 .ordrsrvc button {
+  border-radius: 50px;
+  padding: 16px 40px;
+  background: none;
+  border: 2px solid white;
+  color: white;
+}
+.container4 .ordrsrvc button:hover {
+  background-color: #d0a904;
+  color: white;
+  border: none;
+}
+
+.container5 {
+  width: 100%;
+  float: left;
+}
+.container5 .content4 {
+  margin: 60px 0 0 0;
+}
+.container5 .content4 span {
+  margin: 30px 0;
+}
+.container5 .midnav {
+  background-color: white;
+  margin: 20px 0 0 0;
+}
+.container5 .midnav .midlink {
+  display: inline-block;
+  height: 40px;
+  padding: 12px;
+}
+.container5 .midnav .midlink:hover {
+  background-color: #f5f4fa;
+}
+.container5 .divpic {
+  margin: 20px 0 0 0;
+}
+.container5 .divpic .c1 {
+  margin: 0 0 30px 0;
+  padding: 0 10px 0 0;
+}
+.container5 .divpic .c2 {
+  margin: 0 0 15px 0;
+  padding: 0 10px 0 0;
+}
+.container5 .divpic .c5 {
+  margin: 30px 0 0 0;
+  padding: 0 10px 0 0;
+}
+.container5 .divpic .c6 {
+  margin: 0 0 30px 0;
+}
+.container5 .divpic .c3 {
+  padding: 0 10px 0 0;
+}
+.container5 .divpic .c4 {
+  padding: 0 10px 0 0;
+}
+
+.container6 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  background-image: linear-gradient(#000033, rgba(0, 0, 0, 0.8)), url("../background3.jpg");
+  color: white;
+}
+.container6 .box2 {
+  text-align: center;
+  margin: 100px 0;
+}
+.container6 .box2 p {
+  font-size: 20px;
+}
+.container6 .box2 p:hover {
+  color: #d0a904;
+}
+.container6 .box2 span {
+  font-size: 35px;
+}
+
+.container7 {
+  width: 100%;
+  float: left;
+  background-color: #f5f4fa;
+}
+.container7 .content5 {
+  text-align: center;
+  margin: 80px 0;
+}
+.container7 .content5 h2 {
+  font-size: 45px;
+  color: #54425c;
+}
+.container7 .box3 {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 0 50px 0;
+}
+.container7 .box3 button {
+  border-radius: 50px;
+  padding: 16px 40px;
+  background: none;
+  border: 2px solid #585163;
+  color: #585163;
+  margin: 0 0 20px 0;
+}
+.container7 .box3 button:hover {
+  background-color: #d0a904;
+  color: white;
+  border: none;
+}
+.container7 .box3 h2 {
+  margin: 0 0 50px 0;
+}
+.container7 .box3 .boxwrap {
+  background-color: white;
+}
+.container7 .box3 .x1 {
+  color: #f5f4fa;
+}
+
+.container8 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  float: left;
+  background-image: linear-gradient(#000033, rgba(0, 0, 0, 0.8)), url("../office.jpg");
+  color: white;
+}
+.container8 .content6 {
+  margin: 100px 0;
+}
+.container8 .content6 h2 {
+  font-size: 45px;
+}
+.container8 .box6 {
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+.container8 .box6 img {
+  border-radius: 50px;
+}
+.container8 .box6 p {
+  color: white;
+}
+.container8 .box6 #name {
+  color: white;
+}
+
+.container9 {
+  width: 100%;
+  float: left;
+  background-color: #f5f4fa;
+}
+.container9 .content7 {
+  margin: 100px 0 50px 0;
+}
+.container9 .content7 h2 {
+  font-size: 45px;
+  font-weight: 700px;
+}
+.container9 .box7 {
+  margin: 0 0 60px 0;
+}
+.container9 .box7 button {
+  border-radius: 50px;
+  padding: 16px 40px;
+  background: none;
+  border: 2px solid #585163;
+  color: #585163;
+  margin: 20px 150px 20px 10px;
+}
+.container9 .box7 button:hover {
+  background-color: #d0a904;
+  color: white;
+  border: none;
+}
+.container9 .box7 span {
+  display: inline-block;
+  margin: 20px 0 0 10px;
+}
+.container9 .box7 p {
+  margin: 20px 0 0px 10px;
+}
+.container9 .box7 .boxwrap {
+  background-color: white;
+}
+
+.container10 {
+  width: 100%;
+  float: left;
+  color: white;
+  background-color: #3a376c;
+}
+.container10 .fhead {
+  width: 100%;
+  float: left;
+}
+.container10 .fhead span {
+  font-size: 20px;
+}
+.container10 .content9 {
+  margin: 0 0 60px 0;
+}
+.container10 .content9 .botnav {
+  list-style-type: none;
+  padding: 0;
+}
+.container10 .content9 .botnav a {
+  color: #f5f4fa;
+  text-decoration: none;
+  font-size: 12px;
+}
+.container10 .content9 #mail {
+  border-radius: 50px 0 0 50px;
+  border: none;
+  float: left;
+  width: 80%;
+  height: 40px;
+}
+.container10 .content9 .newsletter {
+  display: inline-block;
+  float: left;
+  background-color: #d0a904;
+  padding: 12px 12px 0px 10px;
+  border-radius: 0 50px 50px 0;
+  width: 20%;
+  height: 40px;
+}
+.container10 .content9 #paper {
+  display: inline-block;
+}
+.container10 .footer {
+  float: left;
+  text-align: center;
+  color: #f5f4fa;
+  border-top: 1px solid #bcbcb2;
+  font-size: 12px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
